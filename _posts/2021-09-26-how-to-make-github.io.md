@@ -5,13 +5,13 @@ categories:
 tags: 
     - "ruby"
     - "jekyll"
-    - "minimal-mistake"
+    - "minimal-mistakes"
 excerpt: 깃허브 페이지를 만들어보자
 ---
 
 연구하면서 이것저것 잡다하게 얻은 지식을 정리해보려고 블로그를 시작하게 되었다. 내친 김에 github page를 만들게 되었다.
 
-## 1. *minimal_mistake* 테마 가져오기
+## 1. *minimal_mistakes* 테마 가져오기
 
 github page를 처음 만들게 되면 정말 아무것도 없다. 그래서 남이 만들어 놓은 밥상에 숟가락을 올려야 편하다.
 
@@ -135,7 +135,7 @@ github page를 처음 만들게 되면 정말 아무것도 없다. 그래서 남
 ## 3. 로컬에서 수정하기
 
 기본적으로 _config.yml 파일을 수정하여 프로필을 만드는 등의 설정을 할 수 있다.
-포스트를 추가하고 싶으면 _post 폴더에 `.md` 형식의 문서를 작성하면 된다. 기본적으로 `.md`의 제목은 `YYYY-MM-DD-TITLE.md`의 형식으로 주어여 `jekyll`이 알아듣는다. 뭐 다른 사소한 것들은 [내 github.io repo](https://github.com/Siheon-Park/Siheon-Park.github.io)를 탐구해봐라.
+포스트를 추가하고 싶으면_post 폴더에 `.md` 형식의 문서를 작성하면 된다. 기본적으로 `.md`의 제목은 `YYYY-MM-DD-TITLE.md`의 형식으로 주어여 `jekyll`이 알아듣는다. 뭐 다른 사소한 것들은 [내 github.io repo](https://github.com/Siheon-Park/Siheon-Park.github.io)를 탐구해봐라.
 
 수정한 파일을 `git` 으로 remote 저장소에 올리면 끝!
 
@@ -146,5 +146,5 @@ github page를 처음 만들게 되면 정말 아무것도 없다. 그래서 남
 ```
 
 ## 4. 느낀점
+
 어찌보면 편하고 어찌보면 불편하다... 깃허브의 네임벨류를 믿고 쓰고 있지만 `HTML`, `MARKDOWN`, `RUBY` 등에 익숙하지 않은 사람이면 참 어렵다. 솔직히 markdown 형식도 vscode로 보는 것과 비교하면 너무 못생겼다?
-    
