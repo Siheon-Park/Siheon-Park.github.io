@@ -21,11 +21,14 @@ github page를 처음 만들게 되면 정말 아무것도 없다. 그래서 남
 
 테마를 가져온 것은 가져온 거고, 수정을 해야한다. github에서 수정할 수도 있지만, 수정 후 랜더링하는데 딜레이가 있어서 로컬에서 돌리는 것이 편하다. *minimal_mistake*는 *jekyll*을 이용하는데, 이게 `ruby`로 작성되었다. 그래서 `ruby`를 설치해야한다. 다행이 Mac에는 루비가 기본적으로 설치되있지만, 시스템 기본을 사용하게 되면 오류가 난다. 그래서
 1. `brew`로 `rbenv` (conda같은 거)를 설치한다.
+
 ```shell
 $ brew update
 $ brew install rbenv
 ```
-2. 
+
+2. asdf
+
 ```python
 for i in range(10):
     print(i)
