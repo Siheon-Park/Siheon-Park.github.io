@@ -7,6 +7,8 @@ tags:
     - "jekyll"
     - "minimal-mistakes"
 excerpt: 깃허브 페이지를 만들어보자
+header:
+  teaser: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 ---
 
 연구하면서 이것저것 잡다하게 얻은 지식을 정리해보려고 블로그를 시작하게 되었다. 내친 김에 github page를 만들게 되었다.
