@@ -10,3 +10,5 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "TAGS"
+    url: "https://siheon-park.github.io/"
