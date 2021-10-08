@@ -99,3 +99,26 @@ header:
     .
     (ksop) shaun@shaunui-MacBookPro ~ % jupyter notebook
     ```
+
+## (추가) jupyter kernel 설치/삭제
+
+```zsh
+# 설치
+(ksop) shaun@shaunui-MacBookPro ~ % python -m ipykernel install --user --name ksop --display-name "KSOP"
+Installed kernelspec ksop in /Users/shaun/Library/Jupyter/kernels/ksop
+```
+
+jupyter notebook 실행 후 화면
+
+<img src = "/assets/images/Screen Shot 2021-10-08 at 6.13.17 PM.png" width="40%">
+
+```zsh
+# 삭제
+(ksop) shaun@shaunui-MacBookPro ~ % jupyter kernelspec uninstall ksop
+Kernel specs to remove:
+ksop                	/Users/shaun/Library/Jupyter/kernels/ksop
+Remove 1 kernel specs [y/N]: y
+[RemoveKernelSpec] Removed /Users/shaun/Library/Jupyter/kernels/ksop
+```
+
+이렇게 하면 매번 `conda activate 가상환경이름` 을 명령하지 않아도 Jupyter Notebook에서 Kernel만 바꾸어서 원하는 환경을 선택할 수 있다. 
